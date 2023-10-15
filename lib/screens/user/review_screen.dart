@@ -139,7 +139,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
                     backgroundColor: allBgClr,
                   ),
                   Text(widget.itemName, style: foodNameTextStyle),
-                  Text("Rs ${widget.itemPrice}"),
+                  Text("Rs ${widget.itemPrice}",style: cardNameTextStyle,),
                 ],
               ),
             )),

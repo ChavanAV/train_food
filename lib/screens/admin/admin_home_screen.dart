@@ -104,7 +104,7 @@ class _AdminHomeScreenState extends State<AdminHomeScreen>  with SingleTickerPro
               text: 'Orders',
             ),
             Tab(
-              text: 'All Items',
+              text: 'Menus',
             ),
             Tab(
               text: 'Add Item',

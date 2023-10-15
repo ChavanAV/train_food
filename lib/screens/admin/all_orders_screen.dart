@@ -25,10 +25,7 @@ class _AllOrdersScreenState extends State<AllOrdersScreen> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: allBgClr,
-        elevation: 0,
-      ),
+      appBar: myAppBar("All Orders"),
       backgroundColor: allBgClr,
       body: Container(
         height: size.height,

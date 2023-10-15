@@ -68,12 +68,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
        if(_formKey.currentState!.validate()
             && restaurantFormKey.currentState!.validate()
            &&  (defaultRole == 'Yes')
-           && (restaurantNameController.text.isNotEmpty
-               && RegExp(r'^[a-z A-Z0-9]+$').hasMatch(restaurantNameController.text))
-           && (stationNameController.text.isNotEmpty
-               && RegExp(r'^[a-z A-Z0-9]+$').hasMatch(stationNameController.text))
-           && (restaurantAddressController.text.isNotEmpty
-               && RegExp(r'^[a-z A-Z0-9]+$').hasMatch(restaurantAddressController.text)))
+           && (restaurantNameController.text.isNotEmpty)
+           && (stationNameController.text.isNotEmpty)
+           && (restaurantAddressController.text.isNotEmpty))
        {
          setState(() {
            isRegistering = true;

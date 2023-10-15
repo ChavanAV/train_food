@@ -33,10 +33,8 @@ class _FoodOrderScreenState extends State<FoodOrderScreen> {
     if(_formKey.currentState!.validate()
         && (userNameController.text.isNotEmpty
             && RegExp(r'^[a-z A-Z0-9]+$').hasMatch(userNameController.text))
-        && (trainController.text.isNotEmpty
-            && RegExp(r'^[a-z A-Z0-9]+$').hasMatch(trainController.text))
-        && (compartmentController.text.isNotEmpty
-            && RegExp(r'^[a-z A-Z0-9]+$').hasMatch(compartmentController.text))
+        && (trainController.text.isNotEmpty)
+        && (compartmentController.text.isNotEmpty)
         && (seatController.text.isNotEmpty
             && RegExp(r'^[0-9]+$').hasMatch(seatController.text))
         && (phoneController.text.isNotEmpty

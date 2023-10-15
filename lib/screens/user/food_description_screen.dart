@@ -183,7 +183,7 @@ class _FoodDescriptionScreenState extends State<FoodDescriptionScreen> {
                   ),
                   const Divider(color: Colors.black, thickness: 1),
                   const Text(
-                    "Recommended dishes",
+                    "Recommended Items",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
                 ],
@@ -233,7 +233,7 @@ class _FoodDescriptionScreenState extends State<FoodDescriptionScreen> {
                         ),
                         Center(
                           child: Text(
-                            "No Data Found",
+                            "No Items Found",
                             style: stationTextStyle,
                           ),
                         ),

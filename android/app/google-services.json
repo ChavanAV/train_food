@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "669615585993",
-    "project_id": "fir-auth-project-21fad",
-    "storage_bucket": "fir-auth-project-21fad.appspot.com"
+    "project_number": "788588914382",
+    "project_id": "expressdine-85da0",
+    "storage_bucket": "expressdine-85da0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:669615585993:android:30e3e79fcfc4b040d8eb18",
+        "mobilesdk_app_id": "1:788588914382:android:bc32daa83acd71f4e9129f",
         "android_client_info": {
           "package_name": "com.example.train_food"
         }
       },
       "oauth_client": [
         {
-          "client_id": "669615585993-rtq1vj58pqe289k1ojk9g4aa5l401hs2.apps.googleusercontent.com",
+          "client_id": "788588914382-is5o8akmah00tra2b39iaeamfnqebnpg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCI7iCa2kAgcLeVnm84CdOy9Rgn6VFJnIo"
+          "current_key": "AIzaSyBwSCsLsQ7t-1-c8DkcM04GcMcBCPqJeCw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "669615585993-rtq1vj58pqe289k1ojk9g4aa5l401hs2.apps.googleusercontent.com",
+              "client_id": "788588914382-is5o8akmah00tra2b39iaeamfnqebnpg.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

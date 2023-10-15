@@ -92,7 +92,7 @@ class _AddItemScreenState extends State<AddItemScreen> {
             itemDescriptionController.clear();
             _image = null;
           });
-          Utils().showSnacBar(context, "Item Uploaded");
+          Utils().showSnacBar(context, "Item Added To Menu.");
         }).onError((error, stackTrace) {
           setState(() {
             loading = false;
@@ -107,7 +107,7 @@ class _AddItemScreenState extends State<AddItemScreen> {
         });
       });
     }else{
-      Utils().showSnacBar(context, "Upload image");
+      Utils().showSnacBar(context, "Upload Image");
     }
   }
 
