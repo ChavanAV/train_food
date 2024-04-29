@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:train_food/auth/signup_screen.dart';
 import 'package:train_food/auth/splash_services.dart';

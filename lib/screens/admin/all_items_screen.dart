@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:train_food/screens/admin/update_item_screen.dart';
 import '../../utils/decoration.dart';
 import '../../utils/toast_msg.dart';
-import '../../widgets/my_card.dart';
 import 'all_img_card.dart';
 
 class AllItemsScreen extends StatefulWidget {

@@ -5,7 +5,6 @@ import 'package:train_food/screens/admin/all_img_card.dart';
 import 'package:train_food/widgets/button.dart';
 import '../../utils/decoration.dart';
 import '../../utils/toast_msg.dart';
-import '../../widgets/my_card.dart';
 import 'food_order_screen.dart';
 
 class FoodDescriptionScreen extends StatefulWidget {

@@ -31,7 +31,7 @@ class SplashServices {
           Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                builder: (context) => UserHomeScreen(),
+                builder: (context) => const UserHomeScreen(),
               ));
         }
         else {
